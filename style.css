@@ -1,0 +1,90 @@
+.table {
+  background-color: white;
+  padding: 1px;
+  border: 1px solid #65abdf;
+}
+
+td {
+  width: 47px;
+  height: 45px;
+  position: relative;
+}
+
+tbody {
+  position: relative;
+}
+
+.trow {
+  background-color: #65abdf;
+}
+
+.button-right {
+  background: #e7a63f;
+  margin-left: 2px;
+  margin-top: 4px;
+  width: 47px;
+  height: 45px;
+  border: none;
+  cursor: pointer;
+}
+
+.hidden {
+  display: none;
+}
+
+.plus {
+  color: #ffffff;
+  text-align: center;
+  font-weight: bold;
+}
+
+.button-down {
+  position: absolute;
+  bottom: -47px;
+  left: 4px;
+  width: 47px;
+  height: 45px;
+  background: #e7a63f;
+  border: none;
+  cursor: pointer;
+}
+
+.wrapper {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  top: 50px;
+  margin-top: 50px;
+  margin-left: 44px;
+}
+
+.button-right-minus {
+  position: absolute;
+  top: -45px;
+  width: 47px;
+  height: 45px;
+  background-color: red;
+  border: 2px solid #fff;
+  transition: 0, 2s;
+  cursor: pointer;
+  text-decoration: none;
+  outline: none;
+}
+
+.button-down-minus {
+  outline: none;
+  text-decoration: none;
+  position: absolute;
+  left: -47px;
+  width: 47px;
+  height: 45px;
+  background-color: red;
+  border: 2px solid #fff;
+  transition: 0, 2s;
+  cursor: pointer;
+}
+
+.minus {
+  color: #ffffff;
+  font-weight: bold;
+}
