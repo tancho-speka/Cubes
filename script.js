@@ -1,6 +1,6 @@
 "use strict";
 
-// Функция добавления и удаления строки и столбца
+// Function to add and remove row and column
 function addRow() {
   let element = document.querySelector("tbody");
   let tr = document.createElement("tr");
@@ -23,7 +23,7 @@ function addColumn() {
   });
 }
 
-// Прикрепление функции добавления и удаления строки к кнопкам
+// Attach the add and remove string function to the buttons
 
 let rightButton = document.querySelector(".button-right");
 rightButton.addEventListener("click", addColumn);
@@ -31,7 +31,7 @@ rightButton.addEventListener("click", addColumn);
 let downButton = document.querySelector(".button-down");
 downButton.addEventListener("click", addRow);
 
-// Функции удаления столбца и строки
+// Functions for deleting a column and row
 
 let rowIndex = 0;
 let cellIndex = 0;
@@ -50,7 +50,7 @@ function removeColumn() {
   hideButtons();
 }
 
-//  Прикрепление функции удаления столбца и строки к кнопкам
+// Attach the delete column and row function to the buttons
 
 let rightButtonMinus = document.querySelector(".button-right-minus");
 rightButtonMinus.addEventListener("click", removeColumn);
